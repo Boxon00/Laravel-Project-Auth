@@ -17,6 +17,7 @@
 - [Bezbednosni aspekti](#🔒-bezbednosni-aspekti)
 - [Production Deployment](#🚀-production-deployment)
 - [Projektni detalji](#🎓-projektni-detalji)
+- [Zaključak](#📝-zaključak)
 
 
 ## 📋 Pregled
@@ -317,3 +318,12 @@ APP_DEBUG=false
 - ✅ Responzivni dizajn
 - ✅ Bezbednosna validacija podataka
 - ✅ Token-based session management
+
+  Ovaj projekat demonstrira kako se može implementirati sigurna i moderna autentikacija u web aplikaciji koristeći Laravel Sanctum i čisti JavaScript. Kroz ovaj tutorijal prikazano je kako se kombinuju frontend i backend tehnologije u cilju ostvarivanja sigurnog pristupa korisnicima. Projekat je modularan, lako proširiv i idealan za male i srednje aplikacije koje zahtevaju autentikaciju korisnika.
+
+U budućnosti, moguće je dodati:
+- Role-based pristup korisnicima (npr. admin, user)
+- Reset lozinke preko e-maila
+- Integraciju sa frontend framework-ima (React, Vue, itd.)
+
+  Hvala na pažnji!
