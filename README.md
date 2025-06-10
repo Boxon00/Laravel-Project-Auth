@@ -1,10 +1,23 @@
-# Laravel Auth App
+# Autentikacija korisnika u web aplikacijama 
 
 **Moderna autentikacija aplikacija sa Laravel backend-om i vanilla JavaScript frontend-om**
 
 [![Laravel](https://img.shields.io/badge/Laravel-12.0-FF2D20?style=for-the-badge&logo=laravel)](https://laravel.com)
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php)](https://php.net)
 [![Sanctum](https://img.shields.io/badge/Laravel-Sanctum-FF2D20?style=for-the-badge)](https://laravel.com/docs/sanctum)
+
+## 📑 Sadržaj
+- [Pregled](#pregled)
+- [Problem koji se rešava](#problem-koji-se-rešava)
+- [Zašto Laravel Sanctum](#zašto-laravel-sanctum)
+- [Instalacija](#🚀-instalacija)
+- [API Endpointi](#📡-api-endpointi)
+- [Test Nalozi](#🧪-test-nalozi)
+- [Ključne Komponente](#📁-ključne-komponente)
+- [Bezbednosni aspekti](#🔒-bezbednosni-aspekti)
+- [Production Deployment](#🚀-production-deployment)
+- [Projektni detalji](#🎓-projektni-detalji)
+
 
 ## 📋 Pregled
 
@@ -54,7 +67,7 @@ Auth-App/
 
 ## 🚀 Instalacija
 
-### Preduslovи
+### Preduslovi
 - PHP 8.2+
 - Composer
 - Node.js & npm
