@@ -73,25 +73,25 @@ Auth-App/
 
 ## ⚖️ Zašto Laravel Sanctum?
 
-Laravel Sanctum je jednostavno rešenje za autentikaciju baziranu na tokenima koje se odlično uklapa u SPA aplikacije ili mobilne klijente. Za razliku od Passport-a, ne zahteva OAuth složenosti i može se brzo implementirati.
-Alternativa: Laravel Passport (OAuth2) - kompleksnije podešavanje, veća fleksibilnost.
-Zašto Sanctum? Manje kompleksnosti, lakše integrisanje sa frontendom, idealno za ovu vrstu aplikacije.
+- Laravel Sanctum je jednostavno rešenje za autentikaciju baziranu na tokenima koje se odlično uklapa u SPA aplikacije ili mobilne klijente. Za razliku od Passport-a, ne zahteva OAuth složenosti i može se brzo implementirati.
+- Alternativa: Laravel Passport (OAuth2) - kompleksnije podešavanje, veća fleksibilnost.
+- Zašto Sanctum? Manje kompleksnosti, lakše integrisanje sa frontendom, idealno za ovu vrstu aplikacije.
 
 ### Prednosti i moguće mane Laravel Sanctum-a
 
- Prednosti
--Jednostavna implementacija
--Token-based autentikacija
--Podrška za SPA aplikacije
--Sigurnost
--Jednostavno upravljanje tokenima 
+ Prednosti:
+- Jednostavna implementacija
+- Token-based autentikacija
+- Podrška za SPA aplikacije
+- Sigurnost
+- Jednostavno upravljanje tokenima 
 
-Moguće mane
--Ograničene mogućnosti u poredjenju sa OAuth2
--Nema ugradjenu podršku za osvežavanje tokena
--Manje restriktivna kontrola pristupa
--Zavisi od Laravel ekosistema
--Cookie-based autentikacija zahteva pravilno podešen CORS
+Moguće mane:
+- Ograničene mogućnosti u poredjenju sa OAuth2
+- Nema ugradjenu podršku za osvežavanje tokena
+- Manje restriktivna kontrola pristupa
+- Zavisi od Laravel ekosistema
+- Cookie-based autentikacija zahteva pravilno podešen CORS
 
 ## 🚀 Instalacija
 
