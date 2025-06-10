@@ -319,6 +319,8 @@ APP_DEBUG=false
 - ✅ Bezbednosna validacija podataka
 - ✅ Token-based session management
 
+## 📝 Zaključak
+
   Ovaj projekat demonstrira kako se može implementirati sigurna i moderna autentikacija u web aplikaciji koristeći Laravel Sanctum i čisti JavaScript. Kroz ovaj tutorijal prikazano je kako se kombinuju frontend i backend tehnologije u cilju ostvarivanja sigurnog pristupa korisnicima. Projekat je modularan, lako proširiv i idealan za male i srednje aplikacije koje zahtevaju autentikaciju korisnika.
 
 U budućnosti, moguće je dodati:
