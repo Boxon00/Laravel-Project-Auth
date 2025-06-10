@@ -129,8 +129,8 @@ APP_ENV=local
 APP_DEBUG=true
 APP_URL=http://localhost:8000
 
-DB_CONNECTION=sqlite
-DB_DATABASE=/absolute/path/to/database.sqlite
+DB_CONNECTION=mysql
+DB_DATABASE=/absolute/path/to/database.mysql
 
 SANCTUM_STATEFUL_DOMAINS=localhost,localhost:3000,127.0.0.1,127.0.0.1:8000,::1
 ```
