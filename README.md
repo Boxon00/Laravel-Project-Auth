@@ -79,22 +79,38 @@ Auth-App/
 - Zašto Sanctum? Manje kompleksnosti, lakše integrisanje sa frontendom, idealno za ovu vrstu aplikacije.
 - Laravel Sanctum je lagano i efikasno rešenje za autentikaciju baziranu na tokenima, idealno za SPA aplikacije, mobilne klijente i jednostavne API sisteme.
 - Njegova glavna prednost je jednostavnost implementacije, jer ne zahteva složene OAuth2 tokove kao Laravel Passport.
+  
+### 🔍 Poređenje sa alternativama:
+
+| **Tehnologija**       | **Kompleksnost** | **Pogodnost za SPA/mobilne aplikacije** | **Fleksibilnost** |
+|----------------------|----------------|------------------------------------|----------------|
+| **Laravel Sanctum**  | ✅ Jednostavno  | ✅ Odlično                         | ⚡ Dovoljno za većinu slučajeva |
+| **Laravel Passport** | ❌ Složeno (OAuth2) | ⚠️ Može se koristiti, ali je previše kompleksno | ✅ Veća fleksibilnost (OAuth2) |
+| **JWT (JSON Web Tokens)** | ⚠️ Srednje | ✅ Dobro | ✅ Može raditi bez Laravel ekosistema |
 
 ### Prednosti i moguće mane Laravel Sanctum-a
 
-  Prednosti:
+Prednosti:
 - Jednostavna implementacija
 - Token-based autentikacija
 - Podrška za SPA aplikacije
 - Sigurnost
 - Jednostavno upravljanje tokenima 
 
-  Moguće mane:
+Moguće mane:
 - Ograničene mogućnosti u poredjenju sa OAuth2
 - Nema ugradjenu podršku za osvežavanje tokena
 - Manje restriktivna kontrola pristupa
 - Zavisi od Laravel ekosistema
 - Cookie-based autentikacija zahteva pravilno podešen CORS
+
+### 🏆 Zašto smo odabrali Sanctum?
+- **Jednostavna konfiguracija** – Brza integracija bez dodatnih složenosti.
+- **Laka upotreba sa frontend aplikacijama** – Omogućava autentifikaciju pomoću **session cookies** ili **API tokena**.
+- **Bez nepotrebne OAuth kompleksnosti** – Passport je moćan, ali često previše komplikovan za jednostavne API-jeve.
+- **Sigurnost** – Sanctum koristi Laravel-ov ugrađeni sistem zaštite, uključujući CSRF i session-based autentifikaciju.
+
+- Sanctum je **praktično rešenje** za aplikacije koje ne zahtevaju punu OAuth2 funkcionalnost, ali ipak žele **sigurnu i skalabilnu autentifikaciju**. 🚀
 
 ## 🚀 Instalacija
 
