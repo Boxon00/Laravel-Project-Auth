@@ -8,6 +8,8 @@
 
 ## 📑 Sadržaj
 - [Pregled](#pregled)
+- [Funkcionalnosti](#✨-funkcionalnosti)
+- [Arhitektura](#🏗️-arhitektura)
 - [Problem koji se rešava](#problem-koji-se-rešava)
 - [Zašto Laravel Sanctum?](#zašto-laravel-sanctum?)
 - [Instalacija](#🚀-instalacija)
