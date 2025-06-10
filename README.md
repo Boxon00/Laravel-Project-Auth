@@ -68,25 +68,28 @@ Auth-App/
 
 ## 🧩 Problem koji se rešava
 
-- U savremenim web aplikacijama, autentikacija korisnika je ključna komponenta za zaštitu podataka i kontrole pristupa. Tradicionalni pristupi često nisu dovoljno sigurni ili nisu prilagođeni Single Page aplikacijama.
-- Ovaj projekat rešava potrebu za jednostavnom i bezbednom autentikacijom korisnika korišćenjem Laravel Sanctum-a kao rešenja za SPA autentikaciju baziranu na tokenima, uz minimalni frontend stack (vanilla JS), što ga čini idealnim za manje projekte ili edukativne svrhe.
+- U savremenim web aplikacijama, autentikacija korisnika je ključna komponenta za zaštitu podataka i kontrole pristupa.
+- Tradicionalni pristupi često nisu dovoljno sigurni ili nisu prilagođeni Single Page aplikacijama.
+- Ovaj projekat rešava potrebu za jednostavnom i bezbednom autentikacijom korisnika korišćenjem Laravel Sanctum-a kao rešenja za SPA autentikaciju baziranu na tokenima, uz minimalni frontend stack (vanilla JS), što ga čini idealnim za manje          projekte ili edukativne svrhe.
 
 ## ⚖️ Zašto Laravel Sanctum?
 
 - Laravel Sanctum je jednostavno rešenje za autentikaciju baziranu na tokenima koje se odlično uklapa u SPA aplikacije ili mobilne klijente. Za razliku od Passport-a, ne zahteva OAuth složenosti i može se brzo implementirati.
 - Alternativa: Laravel Passport (OAuth2) - kompleksnije podešavanje, veća fleksibilnost.
 - Zašto Sanctum? Manje kompleksnosti, lakše integrisanje sa frontendom, idealno za ovu vrstu aplikacije.
+- Laravel Sanctum je lagano i efikasno rešenje za autentikaciju baziranu na tokenima, idealno za SPA aplikacije, mobilne klijente i jednostavne API sisteme.
+- Njegova glavna prednost je jednostavnost implementacije, jer ne zahteva složene OAuth2 tokove kao Laravel Passport.
 
 ### Prednosti i moguće mane Laravel Sanctum-a
 
- Prednosti:
+  Prednosti:
 - Jednostavna implementacija
 - Token-based autentikacija
 - Podrška za SPA aplikacije
 - Sigurnost
 - Jednostavno upravljanje tokenima 
 
-Moguće mane:
+  Moguće mane:
 - Ograničene mogućnosti u poredjenju sa OAuth2
 - Nema ugradjenu podršku za osvežavanje tokena
 - Manje restriktivna kontrola pristupa
