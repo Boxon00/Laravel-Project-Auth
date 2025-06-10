@@ -72,6 +72,14 @@ Auth-App/
 - Tradicionalni pristupi često nisu dovoljno sigurni ili nisu prilagođeni Single Page aplikacijama.
 - Ovaj projekat rešava potrebu za jednostavnom i bezbednom autentikacijom korisnika korišćenjem Laravel Sanctum-a kao rešenja za SPA autentikaciju baziranu na tokenima, uz minimalni frontend stack (vanilla JS), što ga čini idealnim za manje          projekte ili edukativne svrhe.
 
+  ### 🔑 Ključne prednosti ovog pristupa:  
+- **✅ Jednostavna implementacija** – Sanctum ne zahteva složene OAuth tokove, već koristi **lightweight API token sistem**.  
+- **🔒 Sigurnost** – Omogućava zaštitu API ruta i autentifikaciju pomoću **session cookies** ili **personal access tokena**.  
+- **⚡ Minimalni frontend stack** – Korišćenje **vanilla JavaScript-a** za autentifikaciju čini ovaj projekat idealnim za **manje aplikacije** ili **edukativne svrhe**.  
+- **🔄 Prilagođeno SPA aplikacijama** – Sanctum omogućava **stateful autentifikaciju**, što znači da korisnici mogu ostati prijavljeni bez potrebe za ručnim upravljanjem tokenima.
+
+-  Ovaj projekat pruža **praktičan primer** kako implementirati **sigurnu autentifikaciju** u modernim web aplikacijama, uz **jasna uputstva** za instalaciju i korišćenje. 🚀   
+
 ## ⚖️ Zašto Laravel Sanctum?
 
 - Laravel Sanctum je jednostavno rešenje za autentikaciju baziranu na tokenima koje se odlično uklapa u SPA aplikacije ili mobilne klijente. Za razliku od Passport-a, ne zahteva OAuth složenosti i može se brzo implementirati.
