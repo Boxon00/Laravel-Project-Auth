@@ -65,10 +65,10 @@ Auth-App/
     └── ...
 ```
 
-##🧩Problem koji se rešava
+## 🧩 Problem koji se rešava
 
-U savremenim web aplikacijama, autentikacija korisnika je ključna komponenta za zaštitu podataka i kontrole pristupa. Tradicionalni pristupi često nisu dovoljno sigurni ili nisu prilagođeni Single Page aplikacijama.
-Ovaj projekat rešava potrebu za jednostavnom i bezbednom autentikacijom korisnika korišćenjem Laravel Sanctum-a kao rešenja za SPA autentikaciju baziranu na tokenima, uz minimalni frontend stack (vanilla JS), što ga čini idealnim za manje projekte ili edukativne svrhe.
+- U savremenim web aplikacijama, autentikacija korisnika je ključna komponenta za zaštitu podataka i kontrole pristupa. Tradicionalni pristupi često nisu dovoljno sigurni ili nisu prilagođeni Single Page aplikacijama.
+- Ovaj projekat rešava potrebu za jednostavnom i bezbednom autentikacijom korisnika korišćenjem Laravel Sanctum-a kao rešenja za SPA autentikaciju baziranu na tokenima, uz minimalni frontend stack (vanilla JS), što ga čini idealnim za manje projekte ili edukativne svrhe.
 
 ## 🚀 Instalacija
 
