@@ -58,7 +58,7 @@ Auth-App/
 - PHP 8.2+
 - Composer
 - Node.js & npm
-- SQLite/MySQL/PostgreSQL
+- MySQL/HeidiSQL
 
 ### Backend Setup
 
