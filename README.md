@@ -6,6 +6,18 @@
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php)](https://php.net)
 [![Sanctum](https://img.shields.io/badge/Laravel-Sanctum-FF2D20?style=for-the-badge)](https://laravel.com/docs/sanctum)
 
+# 📜 Sadržaj  
+- [📋 Pregled](#pregled)  
+- [🚀 Instalacija](#instalacija)  
+  - [📌 Preduslovi](#preduslovi)  
+  - [Backend Setup](#backend-setup)  
+  - [Frontend Setup](#frontend-setup)  
+- [📡 API Endpointi](#api-endpointi)  
+  - [Javni endpointi](#javni-endpointi)  
+  - [Zaštićeni endpointi](#zasticeni-endpointi)  
+- [🔒 Bezbednosni aspekti](#bezbednosni-aspekti)  
+- [📝 Zaključak](#zakljucak)  
+
 # 📋 Pregled
 
 Ova aplikacija predstavlja kompletno rešenje za autentikaciju korisnika, implementiranu sa Laravel 12 backend-om i modernim vanilla JavaScript frontend-om. Koristi Laravel Sanctum za API token autentikaciju i pruža potpunu funkcionalnost registracije, prijave i upravljanja korisničkim sesijama.
