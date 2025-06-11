@@ -6,24 +6,133 @@
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php)](https://php.net)
 [![Sanctum](https://img.shields.io/badge/Laravel-Sanctum-FF2D20?style=for-the-badge)](https://laravel.com/docs/sanctum)
 
-## 📚 Sadržaj
-- [📋 Pregled](#pregled)
-- [✨ Funkcionalnosti](#funkcionalnosti)
-- [🛡️ Bezbednost](#bezbednost)
-- [🎨 UI/UX](#uiux)
-- [🏗️ Arhitektura](#arhitektura)
-- [🧩 Problem koji se rešava](#problem-koji-se-rešava)
-- [🔑 Ključne prednosti](#klju%C4%8Dne-prednosti)
-- [⚖️ Zašto Laravel Sanctum?](#za%C5%A1to-laravel-sanctum)
-- [🚀 Instalacija](#instalacija)
-- [📡 API Endpointi](#api-endpointi)
-- [🧪 Test Nalozi](#test-nalozi)
-- [🛠️ Development](#development)
-- [📁 Ključne komponente](#klju%C4%8Dne-komponente)
-- [🔒 Bezbednosni aspekti](#bezbednosni-aspekti)
-- [🚀 Production Deployment](#production-deployment)
-- [🎓 Projektni detalji](#projektni-detalji)
-- [📝 Zaključak](#zaklju%C4%8Dak)
+# Naziv Projekta
+
+## Sadržaj
+
+1. [Pregled](#pregled)  
+2. [Funkcionalnosti](#funkcionalnosti)  
+   - [Autentikacija](#autentikacija)  
+   - [Bezbednost](#bezbednost)  
+   - [UI/UX](#uiux)  
+   - [Arhitektura](#arhitektura)  
+3. [Problem koji se rešava](#problem-koji-se-rešava)  
+4. [Ključne prednosti ovog pristupa](#ključne-prednosti-ovog-pristupa)  
+5. [Zašto Laravel Sanctum?](#zašto-laravel-sanctum)  
+   - [Poređenje sa alternativama](#poređenje-sa-alternativama)  
+   - [Prednosti i moguće mane Laravel Sanctum-a](#prednosti-i-moguće-mane-laravel-sanctum-a)  
+   - [Zašto smo odabrali Sanctum?](#zašto-smo-odabrali-sanctum)  
+6. [Instalacija](#instalacija)  
+   - [Preduslovi](#preduslovi)  
+   - [Backend Setup](#backend-setup)  
+   - [Frontend Setup](#frontend-setup)  
+7. [Konfiguracija](#konfiguracija)  
+8. [API Endpointi](#api-endpointi)  
+9. [Test nalozi](#test-nalozi)  
+10. [Development](#development)  
+11. [Ključne komponente](#ključne-komponente)  
+12. [Bezbednosni aspekti](#bezbednosni-aspekti)  
+13. [Production Deployment](#production-deployment)  
+14. [Projektni detalji](#projektni-detalji)  
+15. [Zaključak](#zaključak)  
+
+---
+
+## Pregled
+
+(Tvoj tekst ovde...)
+
+## Funkcionalnosti
+
+### Autentikacija
+
+(Tvoj tekst ovde...)
+
+### Bezbednost
+
+(Tvoj tekst ovde...)
+
+### UI/UX
+
+(Tvoj tekst ovde...)
+
+### Arhitektura
+
+(Tvoj tekst ovde...)
+
+## Problem koji se rešava
+
+(Tvoj tekst ovde...)
+
+## Ključne prednosti ovog pristupa
+
+(Tvoj tekst ovde...)
+
+## Zašto Laravel Sanctum?
+
+(Tvoj tekst ovde...)
+
+### Poređenje sa alternativama
+
+(Tvoj tekst ovde...)
+
+### Prednosti i moguće mane Laravel Sanctum-a
+
+(Tvoj tekst ovde...)
+
+### Zašto smo odabrali Sanctum?
+
+(Tvoj tekst ovde...)
+
+## Instalacija
+
+### Preduslovi
+
+(Tvoj tekst ovde...)
+
+### Backend Setup
+
+(Tvoj tekst ovde...)
+
+### Frontend Setup
+
+(Tvoj tekst ovde...)
+
+## Konfiguracija
+
+(Tvoj tekst ovde...)
+
+## API Endpointi
+
+(Tvoj tekst ovde...)
+
+## Test nalozi
+
+(Tvoj tekst ovde...)
+
+## Development
+
+(Tvoj tekst ovde...)
+
+## Ključne komponente
+
+(Tvoj tekst ovde...)
+
+## Bezbednosni aspekti
+
+(Tvoj tekst ovde...)
+
+## Production Deployment
+
+(Tvoj tekst ovde...)
+
+## Projektni detalji
+
+(Tvoj tekst ovde...)
+
+## Zaključak
+
+(Tvoj tekst ovde...)
 
 
 ## 📋 Pregled
