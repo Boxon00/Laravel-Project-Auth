@@ -8,6 +8,15 @@
 
 # 📜 Sadržaj  
 - [📋 Pregled](#pregled)  
+- [✨ Funkcionalnosti](#funkcionalnosti)  
+  - [🔐 Autentikacija](#autentikacija)  
+  - [🛡️ Bezbednost](#bezbednost)  
+  - [🎨 UI/UX](#uiux)  
+- [🏗️ Arhitektura](#arhitektura)  
+- [🧩 Problem koji se rešava](#problem-koji-se-resava)  
+- [🔑 Ključne prednosti](#kljucne-prednosti)  
+- [⚖️ Zašto Laravel Sanctum?](#zasto-laravel-sanctum)  
+  - [🔍 Poređenje sa alternativama](#poredjenje-sa-alternativama)  
 - [🚀 Instalacija](#instalacija)  
   - [📌 Preduslovi](#preduslovi)  
   - [Backend Setup](#backend-setup)  
@@ -15,8 +24,18 @@
 - [📡 API Endpointi](#api-endpointi)  
   - [Javni endpointi](#javni-endpointi)  
   - [Zaštićeni endpointi](#zasticeni-endpointi)  
+  - [Request/Response primeri](#requestresponse-primeri)  
+- [🧪 Test Nalozi](#test-nalozi)  
+- [🛠️ Development](#development)  
+  - [Pokretanje testova](#pokretanje-testova)  
+  - [Database reset](#database-reset)  
+  - [Debugging](#debugging)  
 - [🔒 Bezbednosni aspekti](#bezbednosni-aspekti)  
-- [📝 Zaključak](#zakljucak)  
+- [🚀 Production Deployment](#production-deployment)  
+  - [Backend](#backend)  
+  - [Frontend](#frontend)  
+- [🎓 Projektni detalji](#projektni-detalji)  
+- [📝 Zaključak](#zakljucak) 
 
 # 📋 Pregled
 
