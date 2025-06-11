@@ -14,7 +14,7 @@
   - [🎨 UI/UX](#uiux)  
 - [🏗️ Arhitektura](#arhitektura)  
 - [🧩 Problem koji se rešava](#problem-koji-se-resava)  
-- [🔑 Ključne prednosti](#kljucne-prednosti)  
+  - [🔑 Ključne prednosti](#kljucne-prednosti)  
 - [⚖️ Zašto Laravel Sanctum?](#zasto-laravel-sanctum)  
   - [🔍 Poređenje sa alternativama](#poredjenje-sa-alternativama)  
 - [🚀 Instalacija](#instalacija)  
