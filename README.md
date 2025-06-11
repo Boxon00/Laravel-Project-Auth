@@ -47,7 +47,10 @@ Ova aplikacija predstavlja kompletno rešenje za autentikaciju korisnika, implem
 
 ### Autentikacija
 
-(Tvoj tekst ovde...)
+-Registracija korisnika sa validacijom podataka
+-Prijava/odjava sa token-based autentikacijom
+-Zaštićene rute sa Sanctum middleware
+-Automatsko upravljanje tokenima (30-dnevno važenje)
 
 ### Bezbednost
 
