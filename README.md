@@ -173,7 +173,7 @@ SANCTUM_STATEFUL_DOMAINS=localhost,localhost:3000,127.0.0.1,127.0.0.1:8000,::1
 
 Aplikacija je prekonfigurirana za rad sa frontend-om na portu 3000. Za promenu portova, ažurirajte `SANCTUM_STATEFUL_DOMAINS` u `.env` fajlu.
 
-## 📡 API Endpointi
+# 📡 API Endpointi
 
 ### Javni endpointi
 
