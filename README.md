@@ -40,7 +40,8 @@
 
 ## Pregled
 
-(Tvoj tekst ovde...)
+
+Ova aplikacija predstavlja kompletno rešenje za autentikaciju korisnika, implementiranu sa Laravel 12 backend-om i modernim vanilla JavaScript frontend-om. Koristi Laravel Sanctum za API token autentikaciju i pruža potpunu funkcionalnost registracije, prijave i upravljanja korisničkim sesijama.
 
 ## Funkcionalnosti
 
