@@ -6,11 +6,11 @@
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php)](https://php.net)
 [![Sanctum](https://img.shields.io/badge/Laravel-Sanctum-FF2D20?style=for-the-badge)](https://laravel.com/docs/sanctum)
 
-## 📋 Pregled
+# 📋 Pregled
 
 Ova aplikacija predstavlja kompletno rešenje za autentikaciju korisnika, implementiranu sa Laravel 12 backend-om i modernim vanilla JavaScript frontend-om. Koristi Laravel Sanctum za API token autentikaciju i pruža potpunu funkcionalnost registracije, prijave i upravljanja korisničkim sesijama.
 
-## ✨ Funkcionalnosti
+# ✨ Funkcionalnosti
 
 ### 🔐 Autentikacija
 - **Registracija korisnika** sa validacijom podataka
@@ -30,7 +30,7 @@ Ova aplikacija predstavlja kompletno rešenje za autentikaciju korisnika, implem
 - **Real-time validacijske poruke**
 - **Test nalozi** za lako testiranje
 
-## 🏗️ Arhitektura
+# 🏗️ Arhitektura
 
 ```
 Auth-App/
@@ -52,7 +52,7 @@ Auth-App/
     └── ...
 ```
 
-## 🧩 Problem koji se rešava
+# 🧩 Problem koji se rešava
 
 - U savremenim web aplikacijama, autentikacija korisnika je ključna komponenta za zaštitu podataka i kontrole pristupa.
 - Tradicionalni pristupi često nisu dovoljno sigurni ili nisu prilagođeni Single Page aplikacijama.
@@ -66,7 +66,7 @@ Auth-App/
 
 -  Ovaj projekat pruža **praktičan primer** kako implementirati **sigurnu autentifikaciju** u modernim web aplikacijama, uz **jasna uputstva** za instalaciju i korišćenje. 🚀   
 
-## ⚖️ Zašto Laravel Sanctum?
+# ⚖️ Zašto Laravel Sanctum?
 
 - Laravel Sanctum je jednostavno rešenje za autentikaciju baziranu na tokenima koje se odlično uklapa u SPA aplikacije ili mobilne klijente. Za razliku od Passport-a, ne zahteva OAuth složenosti i može se brzo implementirati.
 - Alternativa: Laravel Passport (OAuth2) - kompleksnije podešavanje, veća fleksibilnost.
@@ -106,7 +106,7 @@ Moguće mane:
 
 - Sanctum je **praktično rešenje** za aplikacije koje ne zahtevaju punu OAuth2 funkcionalnost, ali ipak žele **sigurnu i skalabilnu autentifikaciju**. 🚀
 
-## 🚀 Instalacija
+# 🚀 Instalacija
 
 ### Preduslovi
 - PHP 8.2+
@@ -153,7 +153,7 @@ npx http-server -p 3000
 # Live Server extension u VS Code
 ```
 
-## 🔧 Konfiguracija
+# 🔧 Konfiguracija
 
 ### Environment Variables (.env)
 
@@ -235,7 +235,7 @@ POST /api/auth/login
 }
 ```
 
-## 🧪 Test Nalozi
+# 🧪 Test Nalozi
 
 Aplikacija dolazi sa predefinsanim test nalozima:
 
@@ -273,7 +273,7 @@ php artisan pail
 tail -f storage/logs/laravel.log
 ```
 
-## 📁 Ključne komponente
+# 📁 Ključne komponente
 
 ### Backend
 
@@ -307,7 +307,7 @@ RESTful rute sa middleware zaštitom i grupiranjem.
 - Smooth animacije
 - Error states
 
-## 🔒 Bezbednosni aspekti
+# 🔒 Bezbednosni aspekti
 
 - **Input sanitization** - svi unosi se validiraju i sanitizuju
 - **SQL injection protection** - Eloquent ORM
@@ -316,7 +316,7 @@ RESTful rute sa middleware zaštitom i grupiranjem.
 - **Rate limiting** - moguće dodati na API rute
 - **Token expiration** - 30-dnevno važenje tokena
 
-## 🚀 Production Deployment
+# 🚀 Production Deployment
 
 ### Backend
 
@@ -341,7 +341,7 @@ APP_DEBUG=false
 # Image optimizacija
 ```
 
-## 🎓 Projektni detalji
+# 🎓 Projektni detalji
 
 **Fakultetski projekat** - Demonstracija moderne web autentikacije
 
@@ -354,7 +354,7 @@ APP_DEBUG=false
 - ✅ Bezbednosna validacija podataka
 - ✅ Token-based session management
 
-## 📝 Zaključak
+# 📝 Zaključak
 
   Ovaj projekat demonstrira kako se može implementirati sigurna i moderna autentikacija u web aplikaciji koristeći Laravel Sanctum i čisti JavaScript. Kroz ovaj tutorijal prikazano je kako se kombinuju frontend i backend tehnologije u cilju ostvarivanja sigurnog pristupa korisnicima. Projekat je modularan, lako proširiv i idealan za male i srednje aplikacije koje zahtevaju autentikaciju korisnika.
 
