@@ -244,7 +244,7 @@ Aplikacija dolazi sa predefinsanim test nalozima:
 | Administrator | `admin@test.com` | `admin123` |
 | Običan korisnik | `user@test.com` | `user123` |
 
-## 🛠️ Development
+# 🛠️ Development
 
 ### Pokretanje testova
 
