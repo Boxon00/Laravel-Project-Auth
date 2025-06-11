@@ -6,7 +6,7 @@
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php)](https://php.net)
 [![Sanctum](https://img.shields.io/badge/Laravel-Sanctum-FF2D20?style=for-the-badge)](https://laravel.com/docs/sanctum)
 
-# 📑 Sadržaj
+## 📑 Sadržaj
 - [📋 Pregled](#pregled)
 - [✨ Funkcionalnosti](#funkcionalnosti)
   - [🔐 Autentikacija](#autentikacija)
