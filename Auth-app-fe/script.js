@@ -156,7 +156,26 @@ async function getCurrentUser() {
     }
 }
 
-function logout() {
+async function logout() {
+      if (!authToken) {
+        // Ako nema tokena, samo prikaži login
+        currentUser = null;
+        showAuth();
+        return;
+    }
+    
+    try {
+        await apiCall('/logout', {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${authToken}`
+            }
+        });
+    } catch (error) {
+        console.error('Logout API error:', error);
+    }
+    
+    // Čišćenje lokalnih podataka bez obzira na rezultat API poziva
     authToken = null;
     currentUser = null;
     localStorage.removeItem('token');
